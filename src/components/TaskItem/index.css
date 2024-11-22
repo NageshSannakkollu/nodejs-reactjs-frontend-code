@@ -1,0 +1,26 @@
+.task-item-list {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fafafa;
+    padding: 0px 50px;
+    border-radius: 8px;
+}
+
+.id{
+    width: 50px;
+}
+.task-name {
+    width: 200px;
+}
+.task-status {
+    width: 150px;
+}
+.delete-button{
+    background-color: red;
+    padding: 8px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    color: #fafafa;
+    margin-left: 20px;
+}

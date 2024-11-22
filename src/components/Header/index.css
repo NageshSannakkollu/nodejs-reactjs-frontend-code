@@ -1,0 +1,29 @@
+.nav-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    height: 100px;
+    color: #fafafa;
+}
+.nav-menu-list-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type:none;
+    font-weight: 600;
+}
+.company-logo {
+    width: 200px;
+    height: 100px;
+}
+@media screen and (max-width:767px){
+    .company-logo{
+        width: 25%;
+        height: 40px;
+    }
+    .nav-menu-list-container{
+        width: 65%;
+    }
+}
